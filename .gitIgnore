@@ -1,0 +1,4 @@
+__pycache__/
+backend/data.db
+backend/.env
+backend/alembic/versions/

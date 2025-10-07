@@ -1,0 +1,143 @@
+@import url("./theme.css");
+
+
+#root {
+  font-family: 'Saira', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: 14px !important;
+}
+
+body,
+#root {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  height: 100dvh !important;
+  background-color: var(--color-bg) !important;
+  color: var(--color-text) !important;
+}
+
+/* Remove number spinners */
+.no-spinner::-webkit-inner-spin-button,
+.no-spinner::-webkit-outer-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+.no-spinner {
+  -moz-appearance: textfield !important;
+}
+
+
+
+input {
+  padding: 10px 12px !important;
+  border-radius: 6px !important;
+  border: 1px solid var(--color-border) !important;
+  background-color: var(--color-white) !important;
+  height: 40px !important;
+  color: var(--color-text) !important;
+  font-size: 14px !important;
+  transition: border 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+input::placeholder {
+  color: var(--color-placeholder) !important;
+  font-size: 14px !important;
+}
+
+/* Focus effect */
+input:focus {
+  outline: none !important;
+  border: 1px solid var(--color-primary) !important;
+  box-shadow:none !important;
+}
+
+
+.validator {
+  display: block !important;
+  min-height: 12px !important;
+  font-size: 11px !important;
+  margin-top: 3px !important;
+  color: var(--color-error) !important;
+}
+
+
+
+.googleIcon {
+  border: 1px solid var(--color-border) !important;
+  border-radius: 6px !important;
+  padding: 8px 20px !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  background-color: var(--color-white) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+}
+
+.googleIcon img {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+.googleIcon:hover {
+  transform: scale(1.03) !important;
+  border-color: var(--color-primary) !important;
+}
+
+
+
+.visibility-icon {
+  top: 50% !important;
+  right: 10px !important;
+  transform: translateY(-50%) !important;
+  cursor: pointer !important;
+  color: var(--color-muted) !important;
+}
+
+
+.default-button {
+  background-color: var(--color-primary) !important;
+  color: var(--color-white) !important;
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 10px 20px !important;
+  font-size: 15px !important;
+  cursor: pointer !important;
+  width: 100% !important;
+  height: 45px !important;
+  transition: background-color 0.3s ease, transform 0.2s ease !important;
+}
+
+.default-button:hover {
+  background-color: var(--color-primary-hover) !important;
+  transform: scale(1.02) !important;
+}
+
+
+.form-card {
+  background-color: var(--color-white) !important;
+  border-radius: 10px !important;
+  box-shadow: 0 2px 10px var(--color-shadow) !important;
+  padding: 20px !important;
+}
+
+
+
+.loading{
+  position: absolute;
+  right: 0px;
+  width: 30px !important;
+  margin: 1.6em;
+  height: 30px;
+  border-radius: 100px;
+  border: 2px solid var(--color-border);
+  border-left: 2px solid var(--color-primary);
+  animation: spinning 0.6s linear infinite;
+}
+
+@keyframes spinning {
+  to{
+    transform: rotate(360deg);
+  }
+}

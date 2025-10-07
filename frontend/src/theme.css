@@ -1,0 +1,23 @@
+/* =========================================================
+   Root Theme — Define Your Global Color Palette Here
+   ========================================================= */
+:root {
+  /* Primary Indigo Palette */
+  --color-primary: #6366F1; /* Main brand color */
+  --color-primary-hover: #4F46E5; /* Button hover, links */
+  --color-primary-light: rgba(99, 102, 241, 0.2);
+
+  /* Neutrals */
+  --color-bg: #F9FAFB; /* Background */
+  --color-white: #FFFFFF;
+  --color-text: #111827; /* Main text */
+  --color-muted: #6B7280; /* Muted paragraph text */
+  --color-placeholder: #9CA3AF;
+  --color-border: #D1D5DB;
+  --color-divider: #E5E7EB;
+
+  /* Feedback / States */
+  --color-error: #EF4444;
+  --color-shadow: rgba(0, 0, 0, 0.05);
+  --color-focus-shadow: rgba(99, 102, 241, 0.2);
+}

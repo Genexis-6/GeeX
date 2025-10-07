@@ -1,0 +1,51 @@
+@import url("../../../../theme.css");
+
+
+
+.registration-page {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+  height: 100dvh !important;
+}
+
+/* Registration Form Container */
+.reg-form-section {
+  max-width: 500px !important;
+  width: 100% !important;
+  background-color: var(--color-white) !important;
+  border-radius: 12px !important;
+  padding: 32px 28px !important;
+  max-height: 95%;
+}
+
+/* Headings */
+.heading h2 {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+  color: var(--color-text) !important;
+  text-align: left !important;
+}
+
+.heading p {
+  color: #6B7280 !important;
+  font-size: 14px !important;
+  margin-bottom: 24px !important;
+}
+
+.heading span {
+  color: var(--color-primary) !important; /* Primary Indigo accent */
+  text-decoration: underline !important;
+  cursor: pointer !important;
+  font-weight: 500 !important;
+}
+
+/* Optional Side Image */
+.g-image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  border-radius: 0 0 0 500px !important;
+}
+
